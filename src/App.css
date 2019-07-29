@@ -1,33 +1,132 @@
-.App {
-  text-align: center;
+.fulliheight{
+    height: 100vh;
+    width: 100%;
+}
+.border-r {
+    border-right: 4px solid #dee2e6!important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.form-wrapper input{
+    width: 100%;
+}
+ 
+.form-wrapper input:nth-child(2){
+    width: 100% !important;
+} 
+
+#field3 {
+  width: 100%;
+  border-radius: 3px;
+}
+.formpage{
+z-index: -10;
+position: absolute;
+top: 0;
+}
+.formfield{
+  z-index: 2;
+  background: #fff !important;
+
+}
+/* 
+label:nth-child(1){
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label:nth-child(2){
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
 }
 
-.App-link {
-  color: #61dafb;
+label:nth-child(3){
+    float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
+}
+input:nth-child(1){
+   float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
+}
+input:nth-child(2){
+   float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
+}
+input:nth-child(3){
+   float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 10px; 
+} */
+
+.widthfull input{
+  width: 300px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+    background-color:#17a2b8;
+    color: #fff;
+}
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+
+.subpage {
+padding: 1cm;
+    height: 256mm;
+    outline: 2cm #fff solid;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.formdisplay {
+  visibility: hidden;
+}
+
+@media print {
+ .formdisplay {
+  visibility:visible;
+} 
+} */
+
+.pointer{
+  cursor: pointer;
 }
